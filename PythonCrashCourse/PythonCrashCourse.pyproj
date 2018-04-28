@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>814ad0cd-2ee7-4731-840e-857d8392e6d4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hello_world.py</StartupFile>
+    <StartupFile>Chapter 2\simple_messages.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonCrashCourse.py" />
+    <Compile Include="Chapter 2\simple_message.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 2\simple_messages.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -37,6 +43,9 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="C:\Users\samue\source\repos\PythonCrashCourse\PythonCrashCourse\Chapter 2\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
